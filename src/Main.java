@@ -11,6 +11,7 @@ public class Main {
         //No.3
         sumCharType("pemrogramanDasarJava1");
     }
+
     public static void rusak(int n) {
         if (n == 0) {
             return;
@@ -21,6 +22,7 @@ public class Main {
         }
         rusak((int)n/2);
     }
+
     public static int roger(int k, int b) {
         if (b == 1) return 1;
         else if (k % b == 0) return 1 + roger(k, --b);
